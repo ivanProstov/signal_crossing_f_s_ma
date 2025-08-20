@@ -1,0 +1,41 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "16.6.0",
+    "express": "5.1.0",
+    "lodash": "4.17.21",
+    "technicalindicators": "3.1.0",
+    "ws": "8.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "5.0.3",
+    "@types/jest": "30.0.0",
+    "@types/lodash": "4.17.20",
+    "@types/node": "24.0.4",
+    "@types/ws": "8.18.1",
+    "@typescript-eslint/eslint-plugin": "8.35.1",
+    "@typescript-eslint/parser": "8.35.1",
+    "eslint": "9.30.1",
+    "eslint-config-prettier": "10.1.5",
+    "eslint-plugin-prettier": "5.5.1",
+    "jest": "30.0.4",
+    "nodemon": "3.1.10",
+    "prettier": "3.6.2",
+    "ts-jest": "29.4.0",
+    "ts-node": "10.9.2",
+    "typescript": "5.8.3"
+  }
+}

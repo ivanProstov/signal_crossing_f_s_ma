@@ -27,10 +27,9 @@ export const env = {
   PORT: process.env.PORT || 3000,
   EMA_PERIOD: Number(process.env.EMA_PERIOD) || 20,
   SMA_PERIOD: Number(process.env.SMA_PERIOD) || 50,
-  TG_BOT_CHAT_ID: process.env.TG_BOT_CHAT_ID,
-  TG_BOT_API_KEY: process.env.TG_BOT_API_KEY,
   OFFSET: Number(process.env.OFFSET) || 0.1,
   LIFETIME: Number(process.env.LIFETIME) || 5,
   MIN_SIGNAL_GAP: Number(process.env.MIN_SIGNAL_GAP) || 3,
+  TG_BOT_URL: process.env.TG_BOT_URL,
   ...envDemo,
 };
